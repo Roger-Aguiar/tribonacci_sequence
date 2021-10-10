@@ -1,4 +1,4 @@
-export function tribonacci([a, b, c]: [number, number, number], n: number): number[] 
+export function tribonacci([a, b, c], n) 
 {
     let tribonacciSequence = [a, b, c]
 
@@ -20,6 +20,3 @@ export function tribonacci([a, b, c]: [number, number, number], n: number): numb
             return tribonacciSequence;            
     }    
 }
-
-let tribonacciSequence = tribonacci([14, 14, 7], 2);
-console.log(tribonacciSequence);

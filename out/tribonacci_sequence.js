@@ -8,13 +8,13 @@ function tribonacci(_a, n) {
         return [];
     }
     else {
-        for (var index = tribonacciSequence.length - 1; index < n; index++) {
+        for (var index = tribonacciSequence.length - 1; index < n - 1; index++) {
             tribonacciSequence.push(tribonacciSequence[index] + tribonacciSequence[index - 1] + tribonacciSequence[index - 2]);
         }
         return tribonacciSequence;
     }
 }
 exports.tribonacci = tribonacci;
-var tribonacciSequence = tribonacci([1, 1, 1], 10);
+var tribonacciSequence = tribonacci([150, 90, 230], 10);
 console.log(tribonacciSequence);
 //# sourceMappingURL=tribonacci_sequence.js.map

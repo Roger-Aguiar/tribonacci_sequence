@@ -1,0 +1,54 @@
+Arguments: 
+  /usr/bin/node /usr/local/bin/yarn add –dev jest
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  10.19.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  TypeError [ERR_UNESCAPED_CHARACTERS]: https://registry.yarnpkg.com/–dev: Request path contains unescaped characters
+      at new ClientRequest (_http_client.js:116:13)
+      at Object.request (https.js:289:10)
+      at Request.module.exports.Request.start (/usr/local/lib/node_modules/yarn/lib/cli.js:141447:32)
+      at Request.module.exports.Request.end (/usr/local/lib/node_modules/yarn/lib/cli.js:142206:10)
+      at end (/usr/local/lib/node_modules/yarn/lib/cli.js:141260:14)
+      at Immediate.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141274:7)
+      at runCallback (timers.js:705:18)
+      at tryOnImmediate (timers.js:676:5)
+      at processImmediate (timers.js:658:5)
+
+npm manifest: 
+  {
+    "name": "tribonacci_sequence",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Roger-Aguiar/tribonacci_sequence.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Roger-Aguiar/tribonacci_sequence/issues"
+    },
+    "homepage": "https://github.com/Roger-Aguiar/tribonacci_sequence#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

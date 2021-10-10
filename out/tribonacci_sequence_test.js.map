@@ -1,0 +1,1 @@
+{"version":3,"file":"tribonacci_sequence_test.js","sourceRoot":"","sources":["../tribonacci_sequence_test.ts"],"names":[],"mappings":";;AAAA,sDAAyD;AAEzD,QAAQ,CAAC,+BAA+B,EAAE;IAEtC,IAAI,CAAC,uDAAuD,EAAE;QAE1D,MAAM,CAAC,cAAc,CAAC,UAAU,CAAC,CAAC,CAAC,EAAE,CAAC,EAAE,CAAC,CAAC,EAAE,EAAE,CAAC,CAAC,CAAC,aAAa,CAAC,qCAAqC,CAAC,CAAC;IAC1G,CAAC,CAAC,CAAC;AACP,CAAC,CAAC,CAAC"}
